@@ -1,14 +1,20 @@
 # MantaCil Wings
 
-MantaCil Wings adalah daemon yang dimodifikasi khusus untuk berjalan selaras dengan MantaCil Panel. Wings bertanggung jawab atas interaksi dengan Docker dan manajemen server game/bot di belakang layar.
+Ini adalah *Wings* versi custom dari MantaCil Team. Buat yang belum tau, Wings ini ibarat mesin utamanya Pterodactyl yang jalan di belakang layar buat ngatur container Docker dan komunikasi sama Panel.
 
-## Fitur Utama
-- **Custom Branding**: Logo ASCII MantaCil terintegrasi ke sistem log dan saat proses startup.
-- **Dukungan MantaCil Panel**: Dikomunikasikan dengan sempurna ke versi MantaCil Panel berbahasa Indonesia.
+Wings versi ini udah kita sesuaiin biar bisa jalan mulus bareng **MantaCil Panel**.
 
-## Instalasi
-Gunakan skrip instalasi resmi MantaCil Installer pada node Anda (Ubuntu 22.04 / 24.04):
+## Kenapa Pakai Ini?
+- **Optimasi Khusus**: Udah ditweak biar klop sama MantaCil Panel dan fitur-fitur tambahan kita.
+- **Support MantaCil Security**: Terintegrasi penuh sama sistem keamanan MantaCil buat nge-cut server yang makan CPU gak ngotak atau ketahuan ngejalanin script DDoS.
+
+## Cara Install
+Gak perlu repot compile sendiri dari source atau download binary satu-satu. Mending langsung pakai script auto-installer kita aja:
+
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/aisantri17/mantacil-installer/main/install.sh)
 ```
-MantaCil Wings akan secara otomatis terinstal sebagai *Systemd service* dan dikonfigurasi secara gaib!
+Nanti pas scriptnya jalan, lu tinggal pilih opsi buat install Wings aja (atau sekalian bareng Panel-nya).
+
+## Lisensi
+Sama kayak proyek aslinya, ini open-source (MIT License). Tapi tolong hargai modifikasi dan terjemahan dari MantaCil Team.
